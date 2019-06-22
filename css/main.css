@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 48px;
+}
+
+.icon {
+  display: block;
+  margin: 0 auto;
+  height: 96px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.search-form {
+  width: 208px;
+  margin: 24px auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.input {
+  border-radius: 4px;
+  border: 1px solid #6c757d;
+  padding: 8px;
+  width: 144px;
+}
+
+.submit {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.submit:hover,
+.submit:active {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.result {
+  text-align: center;
+  display: block;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}

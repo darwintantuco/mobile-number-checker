@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="container">
+      <img class="icon" src="./assets/dual.svg" alt="Icon by Nhor Phai from flaticon">
+      <h3 class="heading">Mobile Network Prefix Checker</h3>
+
+      <form class="search-form" data-js-search-form>
+        <input class="input" type="text" name="prefix"
+        placeholder="09178xxxxxx" required pattern="[0-9]{4,11}">
+        <button class="submit">Search</button>
+      </form>
+      <label class="result" data-js-search-result></label>
+    </main>
+
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
