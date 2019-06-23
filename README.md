@@ -1,1 +1,1 @@
-# mobile-network-prefix-checker
+# mobile-network-checker
